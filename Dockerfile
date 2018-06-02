@@ -7,6 +7,7 @@ ENV TERM=xterm-256color
 # Set mirrors to NZ
 # RUN sed -i "s/http:\/\/archive./http:\/\/nz.archive./g" /etc/apt/sources.list 
 
+
 # Install node.js
 RUN apt-get update && \
     apt-get install curl git -y && \
